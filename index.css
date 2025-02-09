@@ -54,3 +54,53 @@ p {
 
 
 }
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 38px;
+        font-family: "DM Sans", serif;
+        font-weight: bold;
+        text-align: center;
+        width: 250px;
+    
+     }
+    
+    
+   .files {
+          display: grid;
+          padding: 10px;
+          gap: 2px;
+          border: 4px;
+          text-align: center;
+          justify-content: center;
+          justify-content: center;
+     }
+
+    p {
+        font-size: 28px;
+        font-family: "DM Sans", serif;
+        font-weight: lighter;
+        text-align: center;
+        width: 250px;
+    }
+
+    .school {
+        color: rgb(88, 98, 98);
+        margin-top: -10px;
+        text-align: center;
+    }
+}
+
+
+
+@media (min-width: 769px) {
+    .files {
+        display: grid;
+        padding: 10px;
+        gap: 2px;
+        border: 4px;
+        text-align: center;
+        justify-content: center;
+        justify-content: center;
+    }
+}
