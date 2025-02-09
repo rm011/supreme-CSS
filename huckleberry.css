@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(250, 247, 244);
+    line-height: 1.5;
+}
+.section{
+    padding: 50px;
+    text-align: calc(800);
+    background-color: #ffffff;
+}
+.title{
+    font-size: 2.5em;
+    font-size: bold;
+    margin: 0;
+}
+
+.text{
+    font-size: 1.2em;
+    margin: 10px 0;
+
+}
+
+.highlight-text{
+    color:hsl(130, 95%, 38%)
+}
+.gray-background{
+    background-color: #444444;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: center;
+}
+.card{
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgb(32, 32, 28);
+    max-width: 600px;
+    padding: 20px;
+    position: relative;
+}
+.card-header{
+    background-color: rgb(255, 191, 0);
+    box-shadow: 2px 4px rgb(174, 132, 5);
+    color: rgb(35, 52, 7);
+    font-size: clamp(1.2em 1.5rem);
+    font-weight:  800;
+    padding: 8px;
+    border-radius: 2;
+    margin: 7;
+    position: absolute;
+}
+.card-body{
+    margin: 0 0 15px;
+    color: #333;
+    line-height: 1.5;
+    padding: 30px;
+}
+
+@media all and (max-width:769px) { 
+
+    body{
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(250, 247, 244);
+        line-height: 1.5;
+    }
+    .section{
+        padding: 50px;
+        text-align: calc(800);
+        background-color: #ffffff;
+    }
+    
+}
+@media (min-width: 1280px) {
+    body{
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(250, 247, 244);
+        line-height: 1.5;
+    }
+}

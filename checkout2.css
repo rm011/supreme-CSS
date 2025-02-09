@@ -1,0 +1,20 @@
+@media (max-width: 768){
+    .checkout {
+        padding: 40px;
+    }
+
+    .container {
+    
+        max-width: 900px;
+        margin: 40px auto;
+    }
+    .card-details {
+        gap: 5px;
+        justify-content: center;
+
+    
+    }
+    .main {
+        display: list-item;
+    }
+}

@@ -1,0 +1,56 @@
+
+body { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial,  sans-serif;
+    background-color: #cce4da;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 200px;    
+}
+h1 {
+    font-size: 48px;
+    font-family: "DM Sans", serif;
+    font-weight: bold;
+    text-align: center;
+    width: 950px;
+
+}
+p {
+    font-size: 48px;
+    font-family: "DM Sans", serif;
+    font-weight: lighter;
+    text-align: center;
+    width: 950px;
+}
+.school {
+    color: rgb(88, 98, 98);
+    margin-top: -10px;
+}
+
+
+.files {
+    display: flex;
+    flex-wrap: column;
+    padding: 20px;
+    gap: 20px;
+    border: 4px;
+    justify-content: center;
+}
+.files a {
+    text-decoration: none;
+    color: rgb(35, 29, 29);
+    padding: 10px 15px;
+
+}
+.btn {
+    background: white;
+    color: black;
+    border-radius: 20px;
+    border: 2px blueviolet;
+    
+
+
+}

@@ -1,0 +1,55 @@
+
+/* Media Query */
+@media (max-width: 767px)  {
+
+    body {
+        background-color: #f0f7f4;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        padding: 20px;
+        }
+    .container{
+        flex-direction: row;
+        max-width: 20%;
+        padding: 20px;
+    }
+    .info {
+        text-align:justify;
+        margin-top: 10%;
+        margin-right: 80px;
+
+    }
+    .info img {
+        display: block;
+        margin: 0 auto;
+        padding-right: 70px;
+
+    }
+    
+   
+
+
+    .form-row {
+        display: inline;
+        gap: 10px;
+    }
+    .register-btn {
+        font-size: 14px;
+    } 
+
+    .register-btn:hover {
+        background-color: #21886b;
+    }
+
+    .info .default {
+        visibility: hidden;
+      }
+      .info {
+        text-align: center;
+      }
+      
+      .default {
+        display: none
+      }
+    }

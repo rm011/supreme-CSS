@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHECKOUT</title>
+    <link href="checkout.css" rel="stylesheet">
+    <link href="checkout2.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="asset/wppusher-logo copy.png" alt="logo">
+
+        </div>
+        <nav class="nav">
+            <a href="#">Download</a>
+            <a href="#">Learn More</a>
+            <a href="#">pricing</a>
+            <a href="#">Help</a>
+            <button class="account-btn">Account</button>
+
+        </nav>
+
+    </header>
+    <main class="container">
+        <div class="checkout">
+            <h1>Checkout</h1>
+
+            <div class="section">
+                <h3><span class="number">1</span> Your Basic Information</h3>
+                <div class="name">
+                    <label for="firstname">First Name</label> 
+                    <input type="text" id="firstname" placeholder="First Name" value="Jane">
+                    <label for="lastname">Last Name</label>
+                    <input type="text" id="lastname" placeholder="Last Name" value="Doe">
+
+                </div>
+                <div class="email">
+                    <label for="email">E-mail</label>
+                    <input type="email" placeholder="E-mail" value="janedoe@example.com" readonly>
+
+
+                </div>
+
+            </div>
+            <!--Payment Section-->
+            <div class="section">
+                <h3><span class="number">2</span> Your Payment Information</h3>
+                <label for="credit-card">Credit Card</label>
+                <div class="card-details">
+                    <input type="text" placeholder="Card Number">
+                    <input type="text" placeholder="MM /YY">
+                    <input type="text" placeholder="CVC">
+
+                </div>
+
+            </div>
+            <button class="buy">Buy WP Pusher</button>
+            <p class="help"> <strong>Need any help?</strong> <b>Don't hesitate to <span>contact</span> support!</b> </p>
+            <button class="powered">Powered by <strong>stripe</strong></button>
+
+
+        </div>
+
+        <!--Pricing card-->
+        <div class="pricing">
+            <h3>Freelancer</h3>
+            <p class="price">$99 <span>/ year</span> </p>
+            <p class="subtext"> Automatically renews after 1 year </p>
+            <ul>
+                <li>☑️Use on 5 client sites</li>
+                <li>☑️Use on 5 client sites</li>
+                <li>Private repositories</li>
+                <li>☑️Use on 5 client sites</li>
+                <li>Email support</li>
+            </ul>
+            <p class="switch">Need 20 client sites? <a href="#">Switch to Agency plan.</a> </p>
+
+            <hr>
+            <blockquote>
+                <p><i>"FTP is horrible to deal with. <b>WP Pusher</b> solves that issue, and the customer support is awesome</i></p>
+                <div class="review">
+                    <img src="asset/IMG_5605.jpg" alt="Kirk Beard">
+                    <span>Kirk Beard</span>
+
+                </div>
+            </blockquote>
+
+        </div>
+
+    </main>
+    <footer class="footer">
+        <p>© 2018 WP Pusher IVS <a href="#">Terms of Service</a></p>
+
+    </footer>
+    
+</body>
+</html>
